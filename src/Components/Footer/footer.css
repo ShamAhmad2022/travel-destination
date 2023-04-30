@@ -1,0 +1,40 @@
+.idexfooter{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SMFlex{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.SMFlex i{
+    padding-left: 2rem;
+}
+
+.SMFlex a:link, .SMFlex a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.SMFlex a:active, .SMFlex a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.footerEmail{
+    padding: 2rem;
+}
+
+.idexfooter small{
+    font-size: 1.5rem;
+}
+
+.idexfooteracc{
+    margin-top: 50rem;
+}
