@@ -1,7 +1,8 @@
 .idexfooter{
-    background-color: transparent;
+    background-color: rgb(53, 193, 193);
     text-align: center;
     margin-top: 3rem;
+    color: white;
 }
 
 .footerFlex{
@@ -20,11 +21,11 @@
 }
 
 .SMFlex a:link, .SMFlex a:visited{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .SMFlex a:active, .SMFlex a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .footerEmail{

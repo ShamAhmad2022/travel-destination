@@ -1,0 +1,27 @@
+.tour-card{
+    width: 50%;
+    background-color: transparent;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.tour-card-img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tour-link:link, .tour-link:visited{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.tour-link:hover, .tour-link:active{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}

@@ -1,0 +1,50 @@
+.city-card{
+    width: 50%;
+    background-color: transparent;
+    margin: auto;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.city-card-img{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.read-more{
+    font-size: 13px;
+    background-color: rgba(213, 137, 120, 0.651);
+    padding: 3px 1px;
+    color: rgb(255, 255, 255);
+}
+
+.read-more:hover{
+    cursor: pointer;
+}
+
+.price{
+    margin-top: 35px;
+}
+
+.back{
+    display: block;
+    margin-top: 60px;
+}
+
+.back:link, .back:visited{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(191, 247, 247);
+}
+
+.back:hover, .back:active{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(228, 251, 251);
+    cursor: pointer;
+}
