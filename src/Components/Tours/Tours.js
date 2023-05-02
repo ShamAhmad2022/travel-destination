@@ -1,4 +1,5 @@
 import './tours.css';
+import Tour from './Tour/Tour';
 
 function Tours(props) {
 
@@ -6,15 +7,8 @@ function Tours(props) {
 
     return (
         <section className="tours">
-        {
-            data.map(element => 
-            <div key={element.id}>
-                <p>{element.name}</p>
-                <img src={element.image} alt={element.name}/>
-                <hr></hr>
-            </div>
-            )
-        }
+
+        <Tour data={data}></Tour>
 
         </section>
 
